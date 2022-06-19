@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+:root {
+  --background: #E5EAEF;
+  --primary: Blue;
+  --secondary: #315E93
+  --tertiary: #FBFCFE;
+  --white: #FFFFFF;
+  --title: #102032
+  --text: #97A3B0;
+  --container: 1216px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--background);
+  font-family: Fredoka, sans-serif;
+   scroll-behavior: smooth;
+}
+header{
+  max-width: var(--container);
+  margin: 0 auto;
+  margin-top: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul{
+  list-style: none;
+  display: flex;
+  margin-left: 25px;
+}
+
+header ul li:not(:first-child) {
+  margin-left: 24px;
+  
+}
+nav ul a {
+  text-decoration: none;
+  display: block;
+}
+
+ul#links a {
+   font-weight: 700;
+   font-size: 14px;
+   color: var(--title);
+   text-transform: uppercase;
+   transition: 0.2s;
+  margin-left: 65px;
+  padding: 5px;
+}
+
+ul#links a:hover {
+  filter: opacity(0.8);
+}
+
+ul#redes a {
+   font-weight: 700;
+   font-size: 14px;
+   color: var(--title);
+   text-transform: uppercase;
+   transition: 0.2s;
+  margin-left: 150px;
+}
+
+ul#redes a:hover {
+  filter: opacity(0.8);
+}
+ul#redes img {
+  display: block;
+}
+
+
+section#inicio {
+  max-width: var(--container);
+  margin: 0 auto;
+  
+  height: calc(100vh - (40px + 29px));
+  
+  display: flex;
+  align-items: center;
+  position: relative;
+  
+}
+section#inicio h1{
+  font-size: 88px;
+  font-weight: 600;
+  text-transformation:uppercase;
+}
+section#inicio h1 span{
+  color: var(--primary);
+  display: block;
+}
+section#inicio img {
+  display: block;
+  object-fit: contain;
+  width: 493px;
+  
+  -webkit-mask-image: linear-gradient(to left, var(--background), transparent);
+  mask-image: linear-gradient(to left, var(--background)transparent);
+  
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+section#formacao {
+  background-color: var(--tertiary);
+  margin: 10px;
+}
+
+section#formacao div#conteudo-formacao {
+  max-width: var(--container);
+  margin: 0px;
+  padding: 00px 0;
+ 
+}
+div#conteudo-formacao h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-left: 95px;
+  padding-bottom: 0px;
+  padding-top: 80px;
+   
+}
+div#conteudo-formacao h3{
+  margin-left: 25px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+section#experiencias {
+  background-color: var(--tertiary);
+  margin: 10px;
+}
+
+section#experiencias div#conteudo-experiencias {
+  max-width: var(--container);
+  margin: 0px;
+  padding: 00px 0;
+}
+div#conteudo-experiencias h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-left: 95px;
+  padding-bottom: 10px;
+  padding-top: 30px;
+   
+}
+div#conteudo-experiencias h3{
+  margin-left: 25px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+section#habilidades {
+  background-color: var(--primary);
+}
+
+section#habilidades div#conteudo-habilidades {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 75px 0;
+
+  display: flex;
+  align-items: center;
+}
+
+div#conteudo-habilidades h2 {
+  color: var(--white);
+  font-weight: 700;
+}
+
+div#conteudo-habilidades h2 {
+  font-size: 40px;
+}
+
+
+ul#tecnologias li.tecnologia {
+  background-color: var(--white);
+}
+
+li.tecnologia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  width: 125px;
+  height: 125px;
+  border-radius: 8px;
+
+  box-shadow: 0px 30px 28px -24px rgba(0, 0, 0, 0.2);
+}
+
+li.tecnologia:not(:last-child) {
+  margin-right: 24px;
+}
+
+footer {
+  height: 100vh;
+  background-color: var(--primary);
+}
+
+footer div#conteudo-footer {
+  max-width: var(--container);
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div#conteudo-footer div#titulo-footer {
+  color: var(--white);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div#conteudo-footer div#titulo-footer h2 {
+  font-size: 48px;
+}
+
+div#conteudo-footer div#titulo-footer p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+div#conteudo-footer form {
+  margin-top: 40px;
+  max-width: 592px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+div#conteudo-footer form input {
+  font-family: Fredoka;
+
+  height: 67px;
+  border-radius: 4px;
+  border: 0;
+}
+
+div#conteudo-footer form textarea {
+  font-family: Fredoka;
+
+  border-radius: 4px;
+  border: 0;
+  resize: none;
+}
+
+div#conteudo-footer form input::placeholder, textarea::placeholder {
+  color: var(--text);
+}
+
+div#conteudo-footer form input, textarea {
+  color: var(--title);
+}
+
+div#conteudo-footer form input:not([type="submit"]) {
+  padding: 0 24px;
+}
+
+div#conteudo-footer form input + input {
+  margin-top: 16px;
+}
+
+div#conteudo-footer form textarea {
+  margin-top: 16px;
+  padding: 24px;
+}
+
+div#conteudo-footer form input[type="submit"] {
+  margin-top: 0px;
+  background-color: var(--secondary);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+div#conteudo-footer form input[type="submit"]:hover {
+  filter: brightness(0.8);
+}
