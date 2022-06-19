@@ -27,7 +27,8 @@ body {
 header{
   max-width: var(--container);
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 10px;
+  padding: 35px;
 
   display: flex;
   align-items: center;
@@ -40,7 +41,7 @@ ul{
 }
 
 header ul li:not(:first-child) {
-  margin-left: 24px;
+  margin-left: 50px;
   
 }
 nav ul a {
@@ -54,8 +55,8 @@ ul#links a {
    color: var(--title);
    text-transform: uppercase;
    transition: 0.2s;
-  margin-left: 65px;
-  padding: 5px;
+  margin-left: 200px;
+  padding: 10px;
 }
 
 ul#links a:hover {
@@ -68,7 +69,8 @@ ul#redes a {
    color: var(--title);
    text-transform: uppercase;
    transition: 0.2s;
-  margin-left: 150px;
+   margin-left: 225px;
+   padding: 10px;
 }
 
 ul#redes a:hover {
@@ -294,3 +296,39 @@ div#conteudo-footer form input[type="submit"] {
 div#conteudo-footer form input[type="submit"]:hover {
   filter: brightness(0.8);
 }
+
+.linkedin_icon { 
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  align-items: right;
+  justify-content: right;
+  color: black;
+  transition-property: outline-offset, outline-color, background-color;
+  transition-duration: 25s;
+  font-size: 26px;
+  
+}
+
+.staart_icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  transition-property: outline-offset, outline-color, background-color;
+  transition-duration: 25s;
+  font-size: 26px;
+}
+
+.github_icon {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  align-items: right;
+  justify-content: right;
+  color: black;
+  transition-property: outline-offset, outline-color, background-color;
+  transition-duration: 25s;
+  font-size: 26px;
+}
+
