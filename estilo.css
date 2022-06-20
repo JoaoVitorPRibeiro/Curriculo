@@ -305,13 +305,14 @@ div#conteudo-footer form textarea {
 }
 
 div#conteudo-footer form input[type="submit"] {
-  margin-top: 0px;
-  background-color: var(--secondary);
-  color: var(--white);
+  margin-top: 16px;
+  background-color: white;
+  color: black;
   font-size: 16px;
   font-weight: 700;
   transition: 0.2s;
-}
+
+  }
 
 div#conteudo-footer form input[type="submit"]:hover {
   filter: brightness(0.8);
@@ -371,7 +372,10 @@ div#conteudo-footer form input[type="submit"]:hover {
   width: 75px;
   height: 75px;
 }
-
+.javascript_icon {
+  width: 75px;
+  height: 75px;
+}
 .ucdb_icon {
   width: 75px;
   height: 75px;
