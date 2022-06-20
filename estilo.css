@@ -135,8 +135,22 @@ div#conteudo-formacao h2 {
 }
 div#conteudo-formacao h3{
   margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   padding-bottom: 15px;
   padding-top: 10px;
+  position: center;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 550;
+}
+
+div#conteudo-formacao p{
+
+  font-size: 20px;
+  font-weight: 225;
 }
 section#experiencias {
   background-color: var(--tertiary);
@@ -350,4 +364,20 @@ div#conteudo-footer form input[type="submit"]:hover {
 .project_icon {
   width: 75px;
   height: 75px;
+}
+
+.ucdb_icon {
+  width: 75px;
+  height: 75px;
+  padding-top: 25px;
+  margin-right: 10px;
+
+}
+
+.uniderp_icon {
+  width: 75px;
+  height: 75px;
+  padding-top: 25px;
+  margin-right: 10px;
+
 }
