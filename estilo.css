@@ -174,6 +174,12 @@ div#conteudo-experiencias h3{
   margin-left: 25px;
   padding-bottom: 15px;
   padding-top: 10px;
+  font-size: 36px;
+  font-weight: 550;
+}
+div#conteudo-experiencias p{
+  font-size: 18px;
+  font-weight: 225;
 }
 section#habilidades {
   background-color: var(--primary);
@@ -376,6 +382,30 @@ div#conteudo-footer form input[type="submit"]:hover {
 
 .uniderp_icon {
   width: 75px;
+  height: 75px;
+  padding-top: 25px;
+  margin-right: 10px;
+
+}
+
+.sisep_icon {
+  width: 75px;
+  height: 75px;
+  padding-top: 25px;
+  margin-right: 10px;
+
+}
+
+.aegea_icon {
+  width: 100px;
+  height: 100px;
+  padding-top: 25px;
+  margin-right: 10px;
+
+}
+
+.log_icon {
+  width: 125px;
   height: 75px;
   padding-top: 25px;
   margin-right: 10px;
