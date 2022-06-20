@@ -332,3 +332,22 @@ div#conteudo-footer form input[type="submit"]:hover {
   font-size: 26px;
 }
 
+.autocad_icon {
+  width: 75px;
+  height: 75px;
+}
+
+.excel_icon {
+  width: 75px;
+  height: 75px;
+}
+
+.revit_icon {
+  width: 75px;
+  height: 75px;
+}
+
+.project_icon {
+  width: 75px;
+  height: 75px;
+}
